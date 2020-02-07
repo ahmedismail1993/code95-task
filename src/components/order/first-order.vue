@@ -5,7 +5,7 @@
         <b-row>
           <b-col cols="12" class="text-sm-center">
             <h1 class=" mb-5 order__title">
-              نموذج طلب المنتجة هندسة الموسم
+              نموذج طلب المنتج هندسة الموسم
             </h1>
             <h4 class="order__text">بيانات المنظمة</h4>
           </b-col>
