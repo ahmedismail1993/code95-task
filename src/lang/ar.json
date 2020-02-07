@@ -1,0 +1,30 @@
+{
+  "validation": {
+    "required": "%{attribute} مطلوب",
+    "maxLength": "%{attribute}  يجب ان يكون حد اقصي %{max} حرف",
+    "minLength": "%{attribute} يجب ان يكون %{min}  حرف علي الاقل ",
+    "numeric": "هذا الحقل يجب عن يكون ارقام",
+    "email": "%{attribute}  غير صحيح"
+  },
+  "input": {
+    "organize_name": "اسم المنظمة * ",
+    "organize_activity": "نشاظ المنظمة *",
+    "place": "المنطقة",
+    "country": "المركز / المحافظة",
+    "package": "اختر الباقة *",
+    "Responsible_name": " اسم المسئول *",
+    "position": " منصبة *",
+    "phone": "رقم الجوال *",
+    "contact_person_name": "اسم المفوض بتواصل *",
+    "contact_person_position": "منصبة *",
+    "contact_person_phone": "رقم الجوال *",
+    "email": " البريد الالكتروني *",
+    "notes": "  الملاحظات",
+    "code": "  كود البلد",
+    "contact_person_code": "  كود البلد"
+  },
+  "button": {
+    "next": "التالي",
+    "make_order": "طلب المنتج"
+  }
+}

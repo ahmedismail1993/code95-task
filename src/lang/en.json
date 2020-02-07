@@ -1,0 +1,22 @@
+{
+  "validation": {
+    "required": "%{attribute} field is required",
+    "maxLength": "%{attribute} field must be less than %{max} characters",
+    "minLength": "%{attribute} field must be at least %{min} characters",
+    "numeric": "This value must be a number greater than 0",
+    "email": "%{attribute} field is not a valid email address",
+    "url": "This Url not valid"
+  },
+  "input": {
+    "organize_name": "Organize Name",
+    "organize_activity": "Organize Activity",
+    "place": "Place",
+    "country": "Country",
+    "package": "Package",
+    "code": "Code"
+  },
+  "button": {
+    "next": "Next",
+    "make_order": "Make Order"
+  }
+}
