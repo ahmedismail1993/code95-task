@@ -2,10 +2,12 @@
   <main class="order">
     <transition mode="out-in" name="fade">
       <keep-alive>
+        <!-- dynamic Comonnent -->
         <component
           @next_form="handleNextForm"
           :is="orderComponents[counter]"
         ></component>
+        <!-- dynamic Comonnent -->
       </keep-alive>
     </transition>
     <div class="order__indicator-wrapper">
@@ -55,5 +57,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss" scoped></style>
