@@ -227,11 +227,6 @@ export default {
       packagesOptions: ["50", "20", "10"]
     };
   },
-  computed: {
-    formKeys() {
-      return Object.keys(this.form);
-    }
-  },
   validations: {
     form: {
       Responsible_name: {
