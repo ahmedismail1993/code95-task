@@ -1,4 +1,5 @@
 .navbar {
+  z-index: 99999;
   position: fixed !important;
   top: 0;
   left: 0;
@@ -6,6 +7,9 @@
   background-color: #073e75;
   color: #fff !important;
   height: 50px;
+  .vs__clear {
+    display: none;
+  }
   .v-select {
     background-color: #fff !important;
     width: 155px;

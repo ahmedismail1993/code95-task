@@ -7,6 +7,7 @@
           v-model="getLang"
           :options="langauges"
           :searchable="false"
+          :clearSearchOnSelect="false"
           @input="changeLocale"
         ></v-select>
       </ul>
