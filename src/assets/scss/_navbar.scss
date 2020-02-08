@@ -1,0 +1,17 @@
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #073e75;
+  color: #fff !important;
+  height: 50px;
+  .v-select {
+    background-color: #fff !important;
+    width: 155px;
+    border-radius: 15px;
+    > * {
+      width: 100% !important;
+    }
+  }
+}

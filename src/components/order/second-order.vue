@@ -4,7 +4,7 @@
       <form>
         <b-row>
           <b-col cols="12" class="text-sm-center">
-            <h4 class="order__text">بيانات المسئول</h4>
+            <h4 class="order__text">{{ $t("heading.administrator_data") }}</h4>
           </b-col>
 
           <b-col cols="12" md="6">

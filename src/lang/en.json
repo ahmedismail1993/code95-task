@@ -18,5 +18,13 @@
   "button": {
     "next": "Next",
     "make_order": "Make Order"
+  },
+  "heading": {
+    "order": "Order Diagram",
+    "wanted_package": "Wanted Package",
+    "administrator_data": "Administrator Information"
+  },
+  "header": {
+    "organise_data": "Organize Information"
   }
 }

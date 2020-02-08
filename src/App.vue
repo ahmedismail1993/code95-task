@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <AppHeader />
     <Order />
   </div>
 </template>
@@ -8,7 +9,8 @@
 export default {
   name: "app",
   components: {
-    Order: () => import("@/components/order")
+    Order: () => import("@/components/order"),
+    AppHeader: () => import("@/components/header")
   }
 };
 </script>
@@ -18,7 +20,7 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: right; */
+
   color: #2c3e50;
   margin-top: 60px;
 }

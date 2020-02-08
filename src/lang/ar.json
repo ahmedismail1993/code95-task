@@ -26,5 +26,13 @@
   "button": {
     "next": "التالي",
     "make_order": "طلب المنتج"
+  },
+  "heading": {
+    "order": "              نموذج طلب المنتج هندسة الموسم",
+    "wanted_package": "الباقة المطلوبة",
+    "administrator_data": "بيانات المسئول"
+  },
+  "header": {
+    "organise_data": "بيانات المنظمة"
   }
 }

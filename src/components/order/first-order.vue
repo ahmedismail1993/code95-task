@@ -5,9 +5,9 @@
         <b-row>
           <b-col cols="12" class="text-sm-center">
             <h1 class=" mb-5 order__title">
-              نموذج طلب المنتج هندسة الموسم
+              {{ $t("heading.order") }}
             </h1>
-            <h4 class="order__text">بيانات المنظمة</h4>
+            <h4 class="order__text">{{ $t("header.organise_data") }}</h4>
           </b-col>
           <template v-for="(formKey, index) in formKeys">
             <template v-if="formKey !== 'package'">
@@ -24,8 +24,8 @@
               </b-col>
             </template>
           </template>
-          <b-col cols="12" class="text-sm-center my-4">
-            <h4 class="order__text">الباقة المطلوبة</h4>
+          <b-col cols="12" class="text-sm-center my-2">
+            <h4 class="order__text">{{ $t("heading.wanted_package") }}</h4>
           </b-col>
           <b-col cols="12" md="6">
             <form-group name="package">
@@ -39,7 +39,7 @@
               </template>
             </form-group>
           </b-col>
-          <b-col cols="12" class="mt-5">
+          <b-col cols="12" class="mt-3">
             <b-btn
               @click="$emit('next_form')"
               :disabled="$v.form.$invalid"
